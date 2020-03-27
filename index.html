@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Usuário</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"  crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container rounded bg-light p-5 mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card bg-white">
+                    <div class="card-body">
+                        
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="text" id="phone" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="profession">Profissão</label>
+                            <input type="text" id="profession" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="picture">Imagem</label>
+                            <input type="text" id="picture" class="form-control">
+                        </div>
+
+                        <button type="button" id="save" class="mt-5 btn btn-block btn-primary ">Salvar</button>
+
+                    </div><!--card-body-->
+                </div><!--card-->
+            </div><!--col-->
+
+            <div class="col-md-6">
+                <div class="card bg-white">
+                    <div class="card-body">
+                        <div class="media mb-3">
+                            <img src="https://i.picsum.photos/id/434/100/100.jpg" alt="..." class="img-media ">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-0">Fulano de taus</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p class="mt-0 mb-0">Dev-Frontend</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="mt-0 mb-0">11950505050</p>
+                                    </div>
+                                </div><!--row-->
+                            </div><!--mediabody-->
+                            <div class="media-footer pt-2">
+                                <button type="button" id="edit" class="btn btn-secondary btn-sm ">
+                                    <i class="material-icons">
+                                        create
+                                    </i>
+                                </button>
+                                <button type="button" id="delete" class="btn btn-danger btn-sm">
+                                    <i class="material-icons">
+                                        delete_forever
+                                    </i>
+                                </button>
+                            </div><!--mediafooter-->
+                        </div><!--media-->
+                        <div class="media mb-2">
+                            <img src="https://i.picsum.photos/id/434/100/100.jpg" alt="..." class="img-media">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-0">Fulano de taus</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p class="mt-0 mb-0">Dev-Backend</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="mt-0 mb-0">11950505050</p>
+                                    </div>
+                                </div><!--row-->
+                            </div><!--mediabody-->
+                            <div class="media-footer pt-2">
+                                <button type="button" id="edit" class="btn btn-secondary btn-sm ">
+                                    <i class="material-icons">
+                                        create
+                                    </i>
+                                </button>
+                                <button type="button" id="delete" class="btn btn-danger btn-sm">
+                                    <i class="material-icons">
+                                        delete_forever
+                                    </i>
+                                </button>
+                            </div><!--mediafooter-->
+                        </div><!--media-->
+                        
+                    </div><!--card-body-->
+                </div> <!--card-->
+            </div><!--col-->
+        </div><!--row-->
+    </div><!--container-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

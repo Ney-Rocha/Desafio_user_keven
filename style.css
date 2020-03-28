@@ -1,3 +1,7 @@
+.media{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c4c4c4
+}
 .img-media{
     width: 50px;
     height: 50px;
@@ -15,5 +19,9 @@
 @media(max-width:1024px){
     .media{
         flex-direction: column;
+    }
+    .img-media{
+        margin-left:auto;
+        margin-right:auto
     }
 }
